@@ -1,0 +1,17 @@
+ClinConsensus dataset license
+
+The ClinConsensus data files in this repository (the data/ directory and any
+distributed JSONL/data packages) are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0).
+
+You are free to share and adapt the data for any purpose, including
+commercially, provided you give appropriate credit, provide a link to the
+license, and indicate if changes were made.
+
+License summary:    https://creativecommons.org/licenses/by/4.0/
+License legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution: please cite the ClinConsensus paper (see CITATION.cff).
+
+The evaluation and validation code in this repository (the scripts/ directory)
+is licensed separately under the MIT License; see the LICENSE file.

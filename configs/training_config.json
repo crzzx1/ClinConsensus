@@ -1,0 +1,26 @@
+{
+  "base_model": "Qwen/Qwen3-8B",
+  "training_examples": 52209,
+  "development_examples": 5933,
+  "heldout_models": 11,
+  "training_models": 12,
+  "epochs": 2,
+  "per_device_batch_size": 1,
+  "gradient_accumulation_steps": 8,
+  "effective_batch_size_8_gpus": 64,
+  "learning_rate": 1e-5,
+  "lr_scheduler": "cosine",
+  "warmup_ratio": 0.05,
+  "weight_decay": 0.01,
+  "max_sequence_length": 5120,
+  "precision": "bf16",
+  "distributed_training": "PyTorch FSDP full_shard auto_wrap",
+  "gradient_checkpointing": true,
+  "seed": 42,
+  "loss": "assistant tokens only; prompt labels masked with -100",
+  "inference": {
+    "temperature": 0.0,
+    "max_new_tokens": 512,
+    "thinking": false
+  }
+}

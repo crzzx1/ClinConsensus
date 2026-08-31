@@ -1,0 +1,109 @@
+cff-version: 1.2.0
+message: "If you use ClinConsensus, please cite the following paper."
+title: "ClinConsensus: A Physician-Calibrated Benchmark for Evaluating Clinical Rubric Coverage in Chinese Medical LLMs"
+type: dataset
+repository-code: "https://github.com/crzzx1/ClinConsensus"
+url: "https://github.com/crzzx1/ClinConsensus"
+identifiers:
+  - type: url
+    value: "https://huggingface.co/datasets/skylenage/ClinConsensus"
+    description: "Hugging Face dataset release"
+license: MIT
+date-released: "2026-08-31"
+authors:
+  - given-names: Xiang
+    family-names: Zheng
+    affiliation: "Alibaba Group"
+  - given-names: Han
+    family-names: Li
+    affiliation: "Alibaba Group"
+  - given-names: Wenjie
+    family-names: Luo
+    affiliation: "Alibaba Group"
+  - given-names: Weiqi
+    family-names: Zhai
+    affiliation: "Alibaba Group"
+  - given-names: Yiyuan
+    family-names: Li
+    affiliation: "Alibaba Group"
+  - given-names: Chuanmiao
+    family-names: Yan
+    affiliation: "Alibaba Group"
+  - given-names: Xue
+    family-names: Yang
+    affiliation: "Alibaba Group"
+  - given-names: Kailuan
+    family-names: Wu
+    affiliation: "Alibaba Group"
+  - given-names: Ruyi
+    family-names: Xu
+    affiliation: "Alibaba Group"
+  - given-names: Tianyun
+    family-names: Lu
+    affiliation: "Alibaba Group"
+  - given-names: Tianyi
+    family-names: Tang
+    affiliation: "Alibaba Group"
+  - given-names: Yubo
+    family-names: Ma
+    affiliation: "Alibaba Group"
+  - given-names: Kexin
+    family-names: Yang
+    affiliation: "Alibaba Group"
+  - given-names: Sen
+    family-names: Yang
+    affiliation: "Alibaba Group"
+  - given-names: Dayiheng
+    family-names: Liu
+    affiliation: "Alibaba Group"
+  - given-names: Lin
+    family-names: Qu
+    affiliation: "Alibaba Group"
+  - given-names: Bing
+    family-names: Zhao
+    affiliation: "Alibaba Group"
+  - given-names: Hu
+    family-names: Wei
+    affiliation: "Alibaba Group"
+preferred-citation:
+  type: conference-paper
+  title: "ClinConsensus: A Physician-Calibrated Benchmark for Evaluating Clinical Rubric Coverage in Chinese Medical LLMs"
+  collection-title: "Findings of the Association for Computational Linguistics: EMNLP 2026"
+  year: 2026
+  authors:
+    - given-names: Xiang
+      family-names: Zheng
+    - given-names: Han
+      family-names: Li
+    - given-names: Wenjie
+      family-names: Luo
+    - given-names: Weiqi
+      family-names: Zhai
+    - given-names: Yiyuan
+      family-names: Li
+    - given-names: Chuanmiao
+      family-names: Yan
+    - given-names: Xue
+      family-names: Yang
+    - given-names: Kailuan
+      family-names: Wu
+    - given-names: Ruyi
+      family-names: Xu
+    - given-names: Tianyun
+      family-names: Lu
+    - given-names: Tianyi
+      family-names: Tang
+    - given-names: Yubo
+      family-names: Ma
+    - given-names: Kexin
+      family-names: Yang
+    - given-names: Sen
+      family-names: Yang
+    - given-names: Dayiheng
+      family-names: Liu
+    - given-names: Lin
+      family-names: Qu
+    - given-names: Bing
+      family-names: Zhao
+    - given-names: Hu
+      family-names: Wei
